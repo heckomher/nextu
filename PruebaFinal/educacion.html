@@ -78,7 +78,7 @@
       </ul>
     </nav>
     <h2>Educación</h2>
-    <table>
+    <table style="padding: 10px 0 20px 0">
       <thead>
         <tr>
           <th>Año</th>
@@ -98,8 +98,36 @@
           <td>2004-2006</td>
           <td>No</td>
         </tr>
+        <tr>
+          <td>2000-2003</td>
+          <td>Escuela Técnico Profesional de Copiapó</td>
+          <td>Copiapó</td>
+          <td>Sí</td>
+        </tr>
       </tbody>
     </table>
+    <h3>Agregar Estudios</h3>
+    <form class="agregar_estudios" action="index.html" method="post">
+      <label for="anno">Año</label>
+      <select name="anno" id="anno">
+        <option value="2019"></option>
+        <option value="2018"></option>
+        <option value="2017"></option>
+        <option value="2016"></option>
+        <option value="2015"></option>
+        <option value="2014"></option>
+        <option value="2013"></option>
+        <option value="2012"></option>
+      </select><br>
+      <label for="institucion"></label>
+      <input type="text" name="institucion" id="inastitucion" placeholder="Escriba aquí la Institución"><br>
+      <label for="Lugar">Lugar</label><br>
+      <textarea name="lugar" rows="3" cols="20" placeholder="Escriba aquí el lugar"></textarea><br>
+      <label for="culmino">¿Culminó?</label><br>
+      <input type="radio" name="culmino" value="Sí" checked>Sí
+      <input type="radio" name="culmino" value="No">No <br>
+      <button type="submit" name="enviar">Enviar</button>
+    </form>
   </body>
   <footer>
     <ul>
