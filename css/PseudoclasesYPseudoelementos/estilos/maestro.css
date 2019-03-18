@@ -1,0 +1,40 @@
+navbar#menu-principal{
+  padding: 10px 0 10px 0;
+}
+navbar#menu-principal a{
+  text-decoration: none;
+  color: green;
+}
+navbar#menu-principal a:hover{
+  text-decoration: underline;
+}
+table {
+  border-collapse: collapse;
+
+}
+table th, td{
+  padding: 10px;
+  border: 1px solid #000;
+}
+table tbody tr:nth-child(even){
+  background-color: #CCC;
+}
+table tbody tr:nth-child(odd){
+  background-color: #CCF;
+}
+table tbody tr:hover{
+  background-color: #DDD;
+}
+#menu-principal a + a::before {
+content: " | ";
+color: black;
+}
+footer{
+  margin-top: 20px;
+  border-top: 1px solid black;
+  padding-top: 10px;
+  text-align: center;
+}
+.sombra{
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+}

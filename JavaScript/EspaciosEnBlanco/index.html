@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Espacios en Blanco</title>
+  </head>
+  <body>
+    <h1>Espacios en Blanco</h1>
+    <p id="color1"></p>
+    <p id="color2"></p>
+
+    <h1>Saltos de Línea</h1>
+
+    <div id="miDiv">
+
+    </div>
+  </body>
+  <script type="text/javascript">
+    //Espacios en Blanco
+    var color1 ="rojo"      ;
+    var color2 =       "azul";
+    document.getElementById("color1").innerHTML=color1;
+    document.getElementById("color2").innerHTML=color2;
+
+    //Saltos de Línea
+     document.getElementById("miDiv").innerHTML="Hola soy un Div"+" con contenido dinámico";
+  </script>
+</html>
